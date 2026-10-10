@@ -1,0 +1,5 @@
+# Colour Hash
+
+- **Judge:** UVA
+- **Topic:** BFS
+- **Problem:** https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=9&page=show_problem&problem=645
