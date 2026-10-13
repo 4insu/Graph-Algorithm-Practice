@@ -2,7 +2,7 @@
 
 My solutions to graph algorithm practice problems, organized by topic.
 
-**Progress: 20 / 306 solved**
+**Progress: 30 / 313 solved**
 
 Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 
@@ -15,7 +15,7 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | [Connected Components](#connected-components) | 1 / 3 |
 | [Bridges](#bridges) | 0 / 11 |
 | [Articulation Points](#articulation-points) | 0 / 4 |
-| [SCC](#scc) | 2 / 20 |
+| [SCC](#scc) | 4 / 21 |
 | [Strong Orientation](#strong-orientation) | 0 / 1 |
 | [Dijkstra](#dijkstra) | 1 / 38 |
 | [Bellman-Ford](#bellman-ford) | 0 / 8 |
@@ -25,7 +25,7 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | [MST Kruskal](#mst-kruskal) | 2 / 28 |
 | [Kirchhoff Theorem](#kirchhoff-theorem) | 0 / 3 |
 | [Prufer Code](#prufer-code) | 0 / 4 |
-| [Finding Cycle](#finding-cycle) | 0 / 3 |
+| [Finding Cycle](#finding-cycle) | 3 / 4 |
 | [Negative Cycle](#negative-cycle) | 0 / 3 |
 | [Eulerian Path](#eulerian-path) | 0 / 4 |
 | [LCA](#lca) | 0 / 19 |
@@ -36,7 +36,7 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | [Bipartite Check](#bipartite-check) | 1 / 5 |
 | [Kuhn Matching](#kuhn-matching) | 0 / 2 |
 | [Hungarian](#hungarian) | 0 / 5 |
-| [Topological Sort](#topological-sort) | 4 / 9 |
+| [Topological Sort](#topological-sort) | 9 / 14 |
 | [2-SAT](#2-sat) | 0 / 8 |
 | [HLD](#hld) | 0 / 7 |
 | [Centroid Decomposition](#centroid-decomposition) | 0 / 6 |
@@ -170,8 +170,9 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | 16 | [Ada and Panels](http://www.spoj.com/problems/ADAPANEL/) | SPOJ | ⬜ | [Folder](./SCC/SPOJ-ADAPANEL-Ada-and-Panels) |
 | 17 | [Flight Routes Check](https://cses.fi/problemset/task/1682) | CSES | ✅ | [Folder](./SCC/CSES-1682-Flight-Routes-Check) |
 | 18 | [Planets and Kingdoms](https://cses.fi/problemset/task/1683) | CSES | ✅ | [Folder](./SCC/CSES-1683-Planets-and-Kingdoms) |
-| 19 | [Coin Collector](https://cses.fi/problemset/task/1686) | CSES | ⬜ | [Folder](./SCC/CSES-1686-Coin-Collector) |
+| 19 | [Coin Collector](https://cses.fi/problemset/task/1686) | CSES | ✅ | [Folder](./SCC/CSES-1686-Coin-Collector) |
 | 20 | [Checkposts](https://codeforces.com/problemset/problem/427/C) | Codeforces | ⬜ | [Folder](./SCC/CF-427C-Checkposts) |
+| 21 | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | LeetCode | ✅ | [Folder](./SCC/LeetCode-Longest-Cycle-in-a-Graph) |
 
 ## Strong Orientation
 
@@ -343,8 +344,9 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | # | Problem | Judge | Status | Solution |
 |---|---------|-------|--------|----------|
 | 1 | [Reachability in Functional Graph](https://atcoder.jp/contests/abc357/tasks/abc357_e) | AtCoder | ⬜ | [Folder](./Finding-Cycle/AtCoder-ABC357E-Reachability-in-Functional-Graph) |
-| 2 | [Round Trip](https://cses.fi/problemset/task/1669) | CSES | ⬜ | [Folder](./Finding-Cycle/CSES-1669-Round-Trip) |
-| 3 | [Round Trip II](https://cses.fi/problemset/task/1678/) | CSES | ⬜ | [Folder](./Finding-Cycle/CSES-1678-Round-Trip-II) |
+| 2 | [Round Trip](https://cses.fi/problemset/task/1669) | CSES | ✅ | [Folder](./Finding-Cycle/CSES-1669-Round-Trip) |
+| 3 | [Round Trip II](https://cses.fi/problemset/task/1678/) | CSES | ✅ | [Folder](./Finding-Cycle/CSES-1678-Round-Trip-II) |
+| 4 | [Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | LeetCode | ✅ | [Folder](./Finding-Cycle/LeetCode-Shortest-Cycle-in-a-Graph) |
 
 ## Negative Cycle
 
@@ -455,11 +457,16 @@ Folder naming: `<Topic>/<Judge>-<ProblemID>-<Problem-Name>/`
 | 2 | [Ordering Tasks](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1246) | UVA | ⬜ | [Folder](./Topological-Sort/UVA-10305-Ordering-Tasks) |
 | 3 | [Following Orders](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=60) | UVA | ⬜ | [Folder](./Topological-Sort/UVA-124-Following-Orders) |
 | 4 | [Rare Order](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=136) | UVA | ⬜ | [Folder](./Topological-Sort/UVA-200-Rare-Order) |
-| 5 | [Fox and Names](http://codeforces.com/problemset/problem/510/C) | Codeforces | ⬜ | [Folder](./Topological-Sort/CF-510C-Fox-and-Names) |
+| 5 | [Fox and Names](http://codeforces.com/problemset/problem/510/C) | Codeforces | ✅ | [Folder](./Topological-Sort/CF-510C-Fox-and-Names) |
 | 6 | [Answer the boss!](https://www.spoj.com/problems/RPLA/) | SPOJ | ⬜ | [Folder](./Topological-Sort/SPOJ-RPLA-Answer-the-Boss) |
 | 7 | [Course Schedule](https://cses.fi/problemset/task/1679) | CSES | ✅ | [Folder](./Topological-Sort/CSES-1679-Course-Schedule) |
 | 8 | [Longest Flight Route](https://cses.fi/problemset/task/1680) | CSES | ✅ | [Folder](./Topological-Sort/CSES-1680-Longest-Flight-Route) |
 | 9 | [Game Routes](https://cses.fi/problemset/task/1681) | CSES | ✅ | [Folder](./Topological-Sort/CSES-1681-Game-Routes) |
+| 10 | [Course Schedule II](https://cses.fi/problemset/task/1757) | CSES | ✅ | [Folder](./Topological-Sort/CSES-1757-Course-Schedule-II) |
+| 11 | [Topological Sort](https://codeforces.com/problemset/gymProblem/101102/K) | Codeforces Gym | ⬜ | [Folder](./Topological-Sort/CF-Gym-101102K-Topological-Sort) |
+| 12 | [Find Permutation](https://atcoder.jp/contests/abc291/tasks/abc291_e) | AtCoder | ✅ | [Folder](./Topological-Sort/AtCoder-ABC291E-Find-Permutation) |
+| 13 | [Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/description/) | LeetCode | ✅ | [Folder](./Topological-Sort/LeetCode-Count-Ways-to-Build-Rooms-in-an-Ant-Colony) |
+| 14 | [Permutation Counting](https://codeforces.com/gym/103741/problem/H) | Codeforces Gym | ✅ | [Folder](./Topological-Sort/CF-Gym-103741H-Permutation-Counting) |
 
 ## 2-SAT
 
